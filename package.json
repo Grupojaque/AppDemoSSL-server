@@ -1,0 +1,25 @@
+{
+  "name": "secret-server",
+  "version": "1.0.0",
+  "description": "Servidor para recibir información secreta desde nuestra aplicación en iOS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grupojaque/AppDemoSSL-server.git"
+  },
+  "author": "Orlando Rey Sánchez <orlando.sanchez@jaque.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grupojaque/AppDemoSSL-server/issues"
+  },
+  "homepage": "https://github.com/Grupojaque/AppDemoSSL-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}
